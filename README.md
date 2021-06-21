@@ -2,6 +2,7 @@ This Project Requires laravel Version 6
 I have used AMPPS as webserver for localhost.
 
 pick this project from master branch
+<br>
 /* Steps to follow */
 <br>
 check config/datbase.php (information regarding mysql username and password and Database)
