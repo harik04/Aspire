@@ -10,8 +10,8 @@ check config/datbase.php (information regarding mysql username and password and 
  * note: if seeding fails, you can directly open the file and copy the contents and run it in my phpmyadmin ( it should create DB as laravel with 
   4 tables - loanapproved,loantrackers,migrations,and users.
  
-3) Type in browser- http://localhost/laravel/aspire/public/
-4) it will display login page- you can type in any username and password ( if not found code will insert into DB- users table)
+2) Type in browser- http://localhost/laravel/aspire/public/
+3) it will display login page- you can type in any username and password ( if not found code will insert into DB- users table)
 * default username is harish and password is welcome.
 </ul>
 [only for Information]
