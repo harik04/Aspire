@@ -18,10 +18,10 @@ check config/datbase.php (information regarding mysql username and password and 
 Below are the list of artisan commands used for this project.
 composer create-project --prefer-dist laravel/laravel blog "6.*"
 [
-E:\Ampps\www\laravel>composer create-project --prefer-dist laravel/laravel blog "6.*"
+E:\Ampps\www\laravel>composer create-project --prefer-dist laravel/laravel aspire "6.*"
 ]
 php artisan migrate --path=/database/migrations/2021_06_20_084616_create_loantrackers_table.php
-[ E:\Ampps\www\laravel\blog>php artisan migrate --path=/database/migrations/2021_06_20_084616_create_loantrackers_table.php
+[ E:\Ampps\www\laravel\aspire>php artisan migrate --path=/database/migrations/2021_06_20_084616_create_loantrackers_table.php
 ]
 php artisan make:model LoanTrackers
 
