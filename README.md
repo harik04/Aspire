@@ -3,8 +3,9 @@ I have used AMPPS as webserver for localhost.
 
 
 /* Steps to follow */
+<br>
 check config/datbase.php (information regarding mysql username and password and Database)
-
+<ul>
 1) run php artisan make:seeder ImportTableSeeder to import the Sql file (database/laravel.sql)
  * note: if seeding fails, you can directly open the file and copy the contents and run it in my phpmyadmin ( it should create DB as laravel with 
   4 tables - loanapproved,loantrackers,migrations,and users.
@@ -12,7 +13,7 @@ check config/datbase.php (information regarding mysql username and password and 
 3) Type in browser- http://localhost/laravel/aspire/public/
 4) it will display login page- you can type in any username and password ( if not found code will insert into DB- users table)
 * default username is harish and password is welcome.
-
+</ul>
 [only for Information]
 
 Below are the list of artisan commands used for this project.
